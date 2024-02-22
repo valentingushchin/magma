@@ -22,7 +22,8 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    src/crypt.cpp
+    src/crypt.cpp \
+    src/md5.cpp
 
 HEADERS += \
     src/crypt.h \
@@ -33,5 +34,4 @@ unix {
 }
 
 DISTFILES += \
-    README.md \
-    lib/md5.lib
+    README.md
